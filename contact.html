@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Almation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">Almation</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    
+    <canvas id="bg-canvas"></canvas>
+
+    
+    <section class="hero hero-small">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-in">Let's Automate Your Business</h1>
+                <p class="hero-subtitle animate-in delay-1">Tell us about your challenges and we'll create a custom solution</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <p class="form-description">Fill out the form below and we'll get back to you within 24 hours.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@company.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" placeholder="Your Company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="voice-agents">Voice AI Agents</option>
+                                <option value="workflow">Workflow Automation</option>
+                                <option value="analytics">Analytics & Insights</option>
+                                <option value="chatbot">Chatbot Solutions</option>
+                                <option value="email">Email Automation</option>
+                                <option value="integration">Integration Hub</option>
+                                <option value="custom">Custom Solution</option>
+                                <option value="consultation">General Consultation</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Needs *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Describe the processes you'd like to automate and your business goals..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label>
+                                <input type="checkbox" name="newsletter" id="newsletter">
+                                <span>Send me updates about AI automation trends and tips</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                        
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+
+                
+                <div class="contact-info">
+                    <div class="info-card card-3d">
+                        <h3>Get in Touch</h3>
+                        <p>We're here to help you transform your business with AI automation. Reach out and let's start the conversation.</p>
+                        
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon">📧</div>
+                                <div class="info-details">
+                                    <h4>Email</h4>
+                                    <p>hello@almation.ai</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">📞</div>
+                                <div class="info-details">
+                                    <h4>Phone</h4>
+                                    <p>+1 (555) 123-4567</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">💼</div>
+                                <div class="info-details">
+                                    <h4>Business Hours</h4>
+                                    <p>24/7 - Our AI works around the clock</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">⚡</div>
+                                <div class="info-details">
+                                    <h4>Response Time</h4>
+                                    <p>Within 24 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card card-3d">
+                        <h3>Why Contact Us?</h3>
+                        <ul class="benefits-list">
+                            <li>Free consultation to assess your automation needs</li>
+                            <li>Custom solution tailored to your business</li>
+                            <li>Transparent pricing with no hidden costs</li>
+                            <li>Proven track record of successful implementations</li>
+                            <li>Ongoing support and optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How quickly can you implement automation?</h3>
+                    <p>Depending on complexity, we can have initial automation running in as little as 7-14 days. We prioritize rapid deployment so you can start seeing benefits immediately.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Do I need technical expertise?</h3>
+                    <p>Not at all. We handle all technical aspects from setup to maintenance. You focus on your business while our AI solutions work in the background.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What if I already have existing systems?</h3>
+                    <p>Our solutions integrate seamlessly with your current tools and platforms. We work with what you have to minimize disruption.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How is pricing determined?</h3>
+                    <p>Pricing is based on your specific needs, the complexity of automation, and scale of operations. Contact us for a custom quote tailored to your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="cta-section">
+        <div class="container">
+            <h2>Let's Build Something Amazing Together</h2>
+            <p>Join the businesses that are already running 24/7 with Almation's AI automation.</p>
+            <a href="#contactForm" class="btn btn-primary btn-large scroll-to">Start Your Automation Journey</a>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Almation</h3>
+                    <p>Transforming businesses through intelligent automation. Run 24/7 without limits.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Voice AI Agents</a></li>
+                        <li><a href="index.html#services">Workflow Automation</a></li>
+                        <li><a href="index.html#services">Analytics & Insights</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get in Touch</h4>
+                    <p>Ready to transform your business?</p>
+                    <a href="contact.html" class="btn btn-small">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Almation. All rights reserved. | Empowering businesses through AI automation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/3d-background.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
