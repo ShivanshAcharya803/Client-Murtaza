@@ -1,0 +1,200 @@
+{
+  "company": {
+    "name": "Almation",
+    "tagline": "Transforming businesses through intelligent automation",
+    "description": "Run your business 24/7 without human engagement. Automate time-consuming, unproductive work and focus on what truly matters.",
+    "email": "hello@almation.ai",
+    "phone": "+1 (555) 123-4567"
+  },
+  "hero": {
+    "title": "Transform Your Business with AI Automation",
+    "subtitle": "Run your business 24/7 without human engagement. Automate time-consuming, unproductive work and focus on what truly matters.",
+    "primaryCTA": "Get Started",
+    "secondaryCTA": "Explore Solutions"
+  },
+  "services": [
+    {
+      "id": "voice-agents",
+      "icon": "🤖",
+      "title": "Voice AI Agents",
+      "description": "Intelligent voice agents that handle customer inquiries, appointments, and support 24/7 with natural conversation capabilities.",
+      "features": [
+        "Natural language processing",
+        "Multi-language support",
+        "Seamless integration",
+        "Real-time responses"
+      ]
+    },
+    {
+      "id": "workflow",
+      "icon": "⚙️",
+      "title": "Workflow Automation",
+      "description": "Streamline repetitive tasks and complex processes. Free your team from mundane work and boost productivity exponentially.",
+      "features": [
+        "Custom workflow design",
+        "Cross-platform integration",
+        "Automated data processing",
+        "Error-free execution"
+      ]
+    },
+    {
+      "id": "analytics",
+      "icon": "📊",
+      "title": "Analytics & Insights",
+      "description": "AI-powered analytics that monitor, analyze, and optimize your business operations in real-time without manual intervention.",
+      "features": [
+        "Real-time dashboards",
+        "Predictive analytics",
+        "Automated reporting",
+        "Performance optimization"
+      ]
+    },
+    {
+      "id": "chatbot",
+      "icon": "💬",
+      "title": "Chatbot Solutions",
+      "description": "Intelligent chatbots that engage customers, qualify leads, and provide instant support around the clock.",
+      "features": [
+        "Context-aware responses",
+        "Lead qualification",
+        "CRM integration",
+        "Continuous learning"
+      ]
+    },
+    {
+      "id": "email",
+      "icon": "📧",
+      "title": "Email Automation",
+      "description": "Smart email systems that handle correspondence, follow-ups, and campaigns automatically with personalized touch.",
+      "features": [
+        "Personalized campaigns",
+        "Smart scheduling",
+        "Response automation",
+        "Performance tracking"
+      ]
+    },
+    {
+      "id": "integration",
+      "icon": "🔄",
+      "title": "Integration Hub",
+      "description": "Connect all your business tools and platforms into one seamless automated ecosystem that works while you sleep.",
+      "features": [
+        "API integrations",
+        "Data synchronization",
+        "Custom connectors",
+        "Scalable architecture"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "number": "24/7",
+      "title": "Always On",
+      "description": "Your business runs continuously without breaks, holidays, or downtime."
+    },
+    {
+      "number": "90%",
+      "title": "Cost Reduction",
+      "description": "Dramatically reduce operational costs by eliminating repetitive manual work."
+    },
+    {
+      "number": "10x",
+      "title": "Productivity Boost",
+      "description": "Focus your team on high-value tasks while AI handles the rest."
+    },
+    {
+      "number": "0",
+      "title": "Human Errors",
+      "description": "Eliminate mistakes from repetitive tasks with consistent AI execution."
+    }
+  ],
+  "pricing": [
+    {
+      "id": "starter",
+      "name": "Starter Package",
+      "description": "Perfect for small businesses ready to automate their first processes.",
+      "features": [
+        "Single workflow automation",
+        "Basic AI integration",
+        "Email support",
+        "30-day setup"
+      ],
+      "cta": "Contact for Pricing",
+      "popular": false
+    },
+    {
+      "id": "business",
+      "name": "Business Package",
+      "description": "Comprehensive automation for growing businesses.",
+      "features": [
+        "Multiple workflow automation",
+        "Voice AI agents",
+        "Advanced analytics",
+        "Priority support",
+        "14-day setup"
+      ],
+      "cta": "Contact for Pricing",
+      "popular": true
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise Package",
+      "description": "Full-scale AI transformation for enterprises.",
+      "features": [
+        "Unlimited automation",
+        "Custom AI solutions",
+        "Dedicated account manager",
+        "24/7 premium support",
+        "7-day rapid deployment"
+      ],
+      "cta": "Contact for Pricing",
+      "popular": false
+    }
+  ],
+  "about": {
+    "story": [
+      "Almation was born from a simple observation: businesses spend countless hours on repetitive tasks that could be automated. We saw talented teams drowning in administrative work, customer service reps answering the same questions repeatedly, and operations grinding to a halt outside business hours.",
+      "We envisioned a different reality—one where businesses run seamlessly 24/7, where AI handles the mundane so humans can focus on creativity, strategy, and innovation. Where small teams can compete with large enterprises because automation levels the playing field.",
+      "Today, Almation helps businesses of all sizes achieve this vision. Our AI-powered solutions work tirelessly around the clock, eliminating bottlenecks, reducing costs, and freeing teams to do their best work."
+    ],
+    "mission": "To empower businesses with intelligent automation that eliminates time-consuming, unproductive work and enables true 24/7 operations without constant human oversight.",
+    "vision": "A world where every business, regardless of size, has access to enterprise-grade automation that lets them compete globally and operate continuously.",
+    "values": "Innovation, reliability, and client success. We believe in building solutions that work flawlessly so our clients can trust their automated systems completely."
+  },
+  "stats": [
+    {
+      "number": 100,
+      "label": "Businesses Automated"
+    },
+    {
+      "number": 1000000,
+      "label": "Hours Saved"
+    },
+    {
+      "number": 99,
+      "label": "Client Satisfaction %"
+    },
+    {
+      "number": 24,
+      "label": "Hours of Operation"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How quickly can you implement automation?",
+      "answer": "Depending on complexity, we can have initial automation running in as little as 7-14 days. We prioritize rapid deployment so you can start seeing benefits immediately."
+    },
+    {
+      "question": "Do I need technical expertise?",
+      "answer": "Not at all. We handle all technical aspects from setup to maintenance. You focus on your business while our AI solutions work in the background."
+    },
+    {
+      "question": "What if I already have existing systems?",
+      "answer": "Our solutions integrate seamlessly with your current tools and platforms. We work with what you have to minimize disruption."
+    },
+    {
+      "question": "How is pricing determined?",
+      "answer": "Pricing is based on your specific needs, the complexity of automation, and scale of operations. Contact us for a custom quote tailored to your business."
+    }
+  ]
+}
